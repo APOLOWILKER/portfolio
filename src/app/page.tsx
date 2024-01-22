@@ -11,12 +11,13 @@ export default function Home() {
     <Header />
     <main className="bg-red-400 flex flex-col items-center w-full space-y-6">
       <section className='grid grid-cols-2 w-full mx-2'>
-        <aside className='bg-blue-300 flex flex-col items-center py-4'>
+        <aside className='bg-blue-300 flex flex-col items-center py-6 space-y-4'>
             <TypewriterEffect text="Hi, I'm Apolo Wilker!"/>
             <p>Fullstack Developer</p>
 
             <div className='flex my-4'>
-              <Image 
+              <link rel="stylesheet" href="https://github.com/APOLOWILKER" />
+              <Image
                 src={GitHubLogo} // Provide the correct type for the src prop
                 alt="follow me on github"
                 width={50}
