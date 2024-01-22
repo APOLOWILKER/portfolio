@@ -10,7 +10,7 @@ export default function Home() {
     <>
     <Header />
     <main className="bg-red-400 flex flex-col items-center w-full space-y-6">
-      <section className='grid grid-cols-2 w-full mx-2'>
+      <section className='grid grid-cols-2 w-full mx-2 h-96'>
         <aside className='bg-blue-300 flex flex-col items-center py-6 space-y-4'>
             <TypewriterEffect text="Hi, I'm Apolo Wilker!"/>
             <p>Fullstack Developer</p>
